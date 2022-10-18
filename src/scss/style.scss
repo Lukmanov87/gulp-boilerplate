@@ -1,0 +1,36 @@
+@import "./abstracts/constants";
+@import "./abstracts/mixins";
+@import "fonts";
+
+// Components
+@import "./components/button";
+@import "./components/navigation";
+@import "./components/social";
+
+// Layouts
+@import "./layouts/header";
+@import "./layouts/footer";
+
+
+// Basic
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Roboto-regular;
+  font-size: 1.6rem;
+  background-color: aqua;
+
+  span {
+    color: red;
+  }
+}
+
+.main {
+  height: 300px;
+  background-color: green;
+}
+
+
+
